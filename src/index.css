@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    #eef2f3,
+    #dbdbdb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: "Poppins", sans-serif !important;
+}
