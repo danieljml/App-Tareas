@@ -28,7 +28,7 @@ const ListaTareas = ({ homework, changeHomework, mostrarCompletadas }) => {
         if (tarea.id !== id) {
           return tarea;
         }
-        return;
+        return "";
       })
     );
   };
@@ -62,7 +62,7 @@ const ListaTareas = ({ homework, changeHomework, mostrarCompletadas }) => {
               />
             );
           }
-          return;
+          return "";
         })
       ) : (
         <div className="lista-tareas__mensaje">~ No hay tareas agregadas ~</div>
